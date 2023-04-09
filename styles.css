@@ -1,0 +1,158 @@
+body{
+    background-color: black;
+    color: whitesmoke;
+}
+
+#navtop{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow:auto;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+#navtop li{
+    float: left;
+}
+#navtop li a{
+    display: block;
+    font-size: 24px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;    
+}
+#navtop li a:hover{
+    background-color: black;
+}
+#navtop li a.active{
+    background-color: #4CAF50;
+}
+
+
+
+
+
+/*side navigation bar*/
+
+#navleft{
+    list-style-type:none;
+    margin: 0;
+    padding: 0;
+    width: 25%;
+    margin-top: 47.5px;
+    position: fixed;
+    height: 100%;
+    overflow: auto;    
+}
+#navleft li{
+    background-color: #333;
+}
+#navleft li a{
+    display: block;
+    color: white;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+#navleft li a:hover{
+    background-color: black;
+}
+
+.listheadings{
+    font-size: 24px;
+}
+
+/*BODY*/
+/*GREEN BUTTONS*/
+.greenbuttons{
+    color: white;
+    border-radius: 4px;
+    background-color: #4CAF50;
+    font-size:20px;
+    height: 33px;
+    width: auto;
+}
+
+.paragraph1{
+    margin-top: 40px;
+    padding: 20px;
+    background-color: #193d3d/*rgb(21,32,43)*/;
+    color: whitesmoke;
+}
+hr.paragraph1{
+    border-bottom: 1px solid black;
+}
+
+.codearea{
+    background-color: #193d3d;
+}
+.code1{
+    margin-left: 18px;
+    margin-right: 60px;
+    background-color: black;
+}
+
+
+
+.referencebuttons{
+    list-style-type: none;
+    border: 1px  solid #333;
+    height: 50px;
+    width: 300px;
+    border-radius: 4px;
+    background-color: #333;
+    text-align: center;
+    padding-top: 33px;
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.referencebuttons:hover{
+    background-color:#201f1f;
+}
+
+
+.helpdeskbuttons{
+    list-style-type: none;
+    border:1px solid #333;
+    background-color: #333;
+    height: 35px;
+    width: 180px;
+    text-align:center;
+    padding-top: 15px;
+    border-radius: 4px;
+    float: left;
+    margin-right: 10px;
+}
+.helpdeskbuttons:hover{
+    background-color: #201f1f;
+}
+
+.lastlist{
+    list-style-type: none;
+
+}
+
+.lastlist1{
+    float: left;
+    margin: 20px;
+}
+
+.lastpara{
+    color: rgb(173, 163, 151);
+    font-size: 15px;
+}
+
+.material-icons{
+    margin: 10px;
+    margin-left: 20px;
+    margin-top: 15px;
+    width: 40px;
+}
+
+
+
+
